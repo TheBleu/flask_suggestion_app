@@ -41,7 +41,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
-
+          tags: ghcr.io/thebleu/flask_suggestion_app:latest
 
 
